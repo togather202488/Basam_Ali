@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 130" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bldaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#14532d" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Logo Icon Badge -->
+  <g transform="translate(415, 10)" filter="url(#shadow)">
+    <!-- Outer Shield / Circle -->
+    <circle cx="55" cy="55" r="50" fill="url(#bldaGrad)" />
+    <circle cx="55" cy="55" r="44" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-dasharray="4,3" opacity="0.6"/>
+    
+    <!-- Stylized Sprout / Olive Leaves & Helping Hands -->
+    <!-- Hands holding growth -->
+    <path d="M 28 72 C 34 84, 48 88, 55 88 C 62 88, 76 84, 82 72 C 75 76, 65 78, 55 78 C 45 78, 35 76, 28 72 Z" fill="url(#goldGrad)" />
+    <!-- Olive / Seedling Leaves -->
+    <path d="M 55 68 C 55 52, 42 42, 36 36 C 45 35, 55 45, 55 60 Z" fill="#ffffff" opacity="0.95" />
+    <path d="M 55 68 C 55 50, 68 40, 75 34 C 66 34, 55 44, 55 60 Z" fill="#ffffff" opacity="0.95" />
+    <path d="M 55 58 C 53 45, 55 25, 55 25 C 55 25, 57 45, 55 58 Z" fill="url(#goldGrad)" />
+
+    <!-- Little Sun / Glow -->
+    <circle cx="55" cy="22" r="3.5" fill="#fef08a" />
+  </g>
+
+  <!-- Typography (Arabic RTL layout) -->
+  <g transform="translate(0, 0)">
+    <text x="390" y="52" text-anchor="end" font-family="'Tajawal', 'Cairo', 'Segoe UI', sans-serif" font-weight="800" font-size="28" fill="#14532d">
+      جمعية تطوير بيت لاهيا
+    </text>
+    <text x="390" y="80" text-anchor="end" font-family="'Tajawal', 'Cairo', 'Segoe UI', sans-serif" font-weight="600" font-size="14" fill="#16a34a" letter-spacing="0.5">
+      إغاثة • تنمية • تمكين • قطاع غزة
+    </text>
+    <text x="390" y="102" text-anchor="end" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="11" fill="#64748b" letter-spacing="1.5">
+      BEIT LAHIA DEVELOPMENT ASSOCIATION - BLDA
+    </text>
+  </g>
+</svg>
